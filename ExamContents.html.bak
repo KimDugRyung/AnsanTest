@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style>
+	* {	margin :0px;}
+	body {font-family:'Times New Roman',serif;}
+	li {list-style:none;}
+	a  {text-decoration:none}
+	img {border:0;}
+
+	header{
+	    min-width : 640px;
+		background-color : yellow;
+		margin: 30px,0px,30px,0px;
+		height: 130px;
+	} 
+	#title{
+		text-align: left;
+		padding-left:30px;
+	}
+	#subtitle{
+		float: right;
+		font-weight: bold;
+		font-style:italic;	 
+		
+	}	
+
+	#menu_B { float: right;}
+	#menu_B > ul > li {float:right; padding: 2px; border: solid 1px; }
+	#menu_B > ul > li:first-child {float:right; padding: 2px; border: solid 1px; border-radius: 0px 20px 20px 0px;}
+	#menu_B > ul > li:last-child {float:right; padding: 2px; border: solid 1px; border-radius: 20px 0px 0px 20px;}
+	#menu_B > ul > li:hover { padding: 2px; }
+
+	aside{
+		background-color: black;
+		float:right;
+		margin-top:1em;
+		width:100px;	
+		
+		
+	}
+	
+	nav > ul > li > a{color: white; text-decoration: none;}
+
+	section{		
+		margin-left:220px;	
+		
+	}	
+		
+	 
+	#Fifth {
+
+		clear:both;
+		margin-left:220px;		 
+	}
+	.ImgWrap {float: left; margin: 5px;}
+	h1 {display: block; text-align: center; margin: 10px;}
+
+	article {float: left; margin: 5px;}
+	#First { border: solid 1px; width: 350px;}
+	#First > img {border: solid 1px;  width: 150px; margin: 20px; float: right;}
+	#Second {border: solid 1px; width: 350px;}
+	#Second > img { width: 150px; float: left; margin: 20px;}
+	#Third {border: solid 1px; width: 350px;}
+	#Third  > img {width: 150px; display: block; margin: auto;}
+	#Fourth {border: solid 1px; width: 350px; background-image: url(cat.png); background-repeat: no-repeat;}
+	#Fourth > img {width: 150px; }
+	footer { clear: both; background-color: yellow; text-align: center;}
+	 
+  </style>
+  </head>
+	<body>
+		<header> 
+		<div id ="title">
+			<h1> Main Development </h1>
+			<h2>HTML + CSS3 Basic</h2>
+		</div>
+		<div id ="subtitle">
+		'IT응용보안과'에서 배우는 HTML CSS는 매우 쉽습니다.
+		</div>
+		<br>
+		<div id="menu_B"> 
+			<ul>
+				<li> <a href="#">HTML5</a></li>
+				<li> <a href="#">CSS3</a></li>
+				<li> <a href="#">Java Script</a></li>
+				<li> <a href="#">J Query</a></li>
+				<li> <a href="#">PHP</a></li>		 
+			</ul>
+		<div> 
+		</header> 
+		 
+		<div id="content">	
+			<aside>
+				 <nav>
+					<ul>
+						<li><a href="http://www.naver.co.kr">Naver </a></li>
+						<li><a href="http://www.daum.co.kr">Daum </a></li>
+						<li><a href="http://www.google.com">Google </a></li>
+						<li><a href="http://www.w3schools.com">W3C </a></li>
+					</ul>
+				</nav>
+			</aside>	 
+			<section>
+				<article id="First">
+					<h1>Main Section</h1>					
+					<img src='ic_launcher.png'>
+					<p>I love you very much,미국 대선 공화당 후보로 사실상 확정된 도널드 트럼프(사진)에 대해 워싱턴포스트(WP)는 5일 “미국뿐 아니라 전 세계에 재앙이 될 것”이라는 사설을 썼다. WP는 “공화당은 트럼프가 미국과 전 세계에 재앙이 되지 않도록 해야 할 책무가 있다”고 주장했다</p>
+				 </article>
+				 <article id="Second">
+					<h1>Main Section</h1>
+					<img src='dog.png'>
+					<p>I love you very much,미국 대선 공화당 후보로 사실상 확정된 도널드 트럼프(사진)에 대해 워싱턴포스트(WP)는 5일 “미국뿐 아니라 전 세계에 재앙이 될 것”이라는 사설을 썼다. WP는 “공화당은 트럼프가 미국과 전 세계에 재앙이 되지 않도록 해야 할 책무가 있다”고 주장했다</p>
+				 </article>
+				 <article id="Third">
+					<h1>Main Section</h1>	
+					<img src='dog2.png'>					
+					<p>I love you very much 미국 대선 공화당 후보로 사실상 확정된 도널드 트럼프(사진)에 대해 워싱턴포스트(WP)는 5일 “미국뿐 아니라 전 세계에 재앙이 될 것”이라는 사설을 썼다. </p>
+					
+				 </article>
+				 <article id="Fourth">
+					 
+						<h1>Main Section</h1>
+						
+						<p>I love you very much,미국 대선 공화당 후보로 사실상 확정된 도널드 트럼프(사진)에 대해 워싱턴포스트(WP)는 5일 “미국뿐 아니라 전 세계에 재앙이 될 것”이라는 사설을 썼다. WP는 “공화당은 트럼프가 미국과 전 세계에 재앙이 되지 않도록 해야 할 책무가 있다”고 주장했다</p>
+					 
+				 </article>
+			
+			</section> 
+			<div id="Fifth">	
+					<div class = 'ImgWrap'>
+						<img src='dog.png'>	<h2>불독</h2>
+					</div>
+					<div class = 'ImgWrap'>
+						<img src='dog2.png'> <h2>강아지</h2>
+					</div>
+					<div class = 'ImgWrap'>
+						<img src='cat.png'> <h2>고양이</h2>
+					</div>
+			</div>
+			
+		</div>	 
+
+		 <footer>
+				<H3> html5 + CSS3 BASIC, Website layout Basic </H3>
+				    
+				  CopyRight(C) 안산대 IT응용보안과 201630001 김덕령 
+		 </footer>
+ 
+	 </body>
+</html>
